@@ -3,7 +3,7 @@ package model;
 public class CarModel {
     
     
-    private String name;
+    private String name;             // code convention: datentypen ordnen nach komplexität
     private String color;
     private String type;
     private int productionYear;
