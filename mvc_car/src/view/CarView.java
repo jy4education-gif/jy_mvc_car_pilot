@@ -6,18 +6,19 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import java.awt.GridLayout;
 import java.awt.event.ActionListener;
+import javax.swing.SwingConstants;
 
 public class CarView extends JFrame {
     
     // UI
-    private JLabel infoLabel = new JLabel("Motor: Aus | Kilometer: 0.0 km | Tank: 0.0 L");
+    private JLabel infoLabel = new JLabel("Motor: Aus | Kilometer: 0.0 km | Tank: 0.0 L", SwingConstants.CENTER);
     private JButton startButton = new JButton("Motor Starten");
     private JButton stopButton = new JButton("Motor Stoppen");
     private JButton driveButton = new JButton("10 km Fahren");
 
     public CarView() {
         // Window
-        this.setTitle("Car Simulator (MVC)");
+        this.setTitle("JYs Car Simulator (MVC)");
         this.setSize(400, 150);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
