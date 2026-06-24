@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CarController",
+            "request": "launch",
+            "mainClass": "mvc_car/controller.CarController",
+            "projectName": "jy_mvc_car_pilot_3625417d"
+        },
+        {
+            "type": "java",
+            "name": "Launch It!",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "internalConsole",
+            "vmArgs": [
+                "-Dfile.encoding=UTF-8",
+                "-Dsun.stdout.encoding=UTF-8",
+                "-Dsun.stderr.encoding=UTF-8"
+            ]
+        }
+    ]
+}
