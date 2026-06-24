@@ -8,7 +8,7 @@ public class CarModel {
     private String type;
     private int productionYear;
     private double mileage;
-    private boolean engineIsRunning;
+    private boolean engineIsRunning; // besser isEngineRunnig, per Konvention für booleans
     private int maxTankVolume;
     private double currentTankVolume;
     private double fuelConsumption; 
